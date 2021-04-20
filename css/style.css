@@ -59,6 +59,13 @@ body{
     font-weight: 300;
     color: #FFFFFF;
 }
+.men{
+	position:fixed;
+	height:200px;
+	width:100%;
+	z-index:12;
+	background-color:transparent;
+}
 .navbar-default {
     background: none;
     border: none;
@@ -300,7 +307,7 @@ body{
 /*-- //slider --*/
 /*-- w3layouts-banner-info --*/
 .w3layouts-banner-info {
-    padding: 8em 0;
+    padding: 14em 0;
 }
 .banner_text {
     text-align: center;
