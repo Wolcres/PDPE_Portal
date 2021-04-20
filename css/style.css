@@ -27,7 +27,6 @@ body{
     -moz-background-size: 2px;
     -o-background-size: 2px;
     -ms-background-size: 2px;
-    padding: 3em 0;
 }
 .jarallax {
     position: relative;
@@ -61,10 +60,9 @@ body{
 }
 .men{
 	position:fixed;
-	height:200px;
 	width:100%;
 	z-index:12;
-	background-color:transparent;
+	background-color:#1a655f;
 }
 .navbar-default {
     background: none;
@@ -74,7 +72,7 @@ body{
     margin-bottom: 0;
 }
 .navbar-collapse {
-    padding: 0;
+    padding: 0px;
     box-shadow: none;
 }
 .navbar-default .navbar-brand {
@@ -307,7 +305,7 @@ body{
 /*-- //slider --*/
 /*-- w3layouts-banner-info --*/
 .w3layouts-banner-info {
-    padding: 14em 0;
+    padding: 26em 0;
 }
 .banner_text {
     text-align: center;
