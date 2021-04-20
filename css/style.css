@@ -45,7 +45,7 @@ body{
 .agileits-logo h1 a{
     font-size: 2em;
     text-transform: uppercase;
-    color: #FF9800;
+    color: #3A8CE39C;
     text-decoration: none;
     font-weight: 700;
     font-family: 'Roboto Condensed', sans-serif;
@@ -58,11 +58,13 @@ body{
     font-weight: 300;
     color: #FFFFFF;
 }
-.men{
+.nv-main{
 	position:fixed;
 	width:100%;
 	z-index:12;
-	background-color:#1a655f;
+	background-color:#070f153d;
+
+	/*16252d */
 }
 .navbar-default {
     background: none;
@@ -299,7 +301,7 @@ body{
     -ms-border-radius: 50%;
 }
 .callbacks_here a:after{
-    background: #ff9800;
+    background: #3A8CE39C;
     border: 2px solid #ffffff;
 }
 /*-- //slider --*/
@@ -333,11 +335,11 @@ body{
     color: #FFFFFF;
     font-size: 1em;
     padding: .5em 1em;
-    border: solid 2px #FF9800;
+    border: solid 2px #3A8CE39C;
     text-decoration: none;
     border-radius: 30px;
     margin: 0;
-    background:#FF9800;
+    background:#3A8CE39C;
 }
 .w3-button a:hover {
     color: #FFFFFF;
@@ -356,7 +358,7 @@ body{
 }
 .agileits-title h2,.agileits-title h3{
     font-size: 4em;
-    color: #ff9800;
+    color: #3A8CE39C;
     margin: 0;
     text-align: center;
     font-family: 'Roboto Condensed', sans-serif;
@@ -428,7 +430,7 @@ body{
     text-align: center;
     padding: 1.2em 0 0 0;
     margin: 0 auto 1em;
-    background: #ff9800;
+    background: #3A8CE39C;
 }
 .icon-left i.fa{
     color: #FFFFFF;
@@ -492,9 +494,9 @@ body{
     border: 2px solid #212121;
 }
 .simplefilter li.active {
-    border: 2px solid #ff9800;
+    border: 2px solid #3A8CE39C;
     color: #ffffff;
-    background: #ff9800;
+    background: #3A8CE39C;
 	border-radius: 30px;
     -webkit-border-radius: 30px;
     -moz-border-radius: 30px;
@@ -668,7 +670,7 @@ ul.simplefilter {
     margin: 0;
     font-size: 2em;
     text-transform: uppercase;
-    color: #FF9800;
+    color: #3A8CE39C;
     text-decoration: none;
     font-weight: 700;
     font-family: 'Roboto Condensed', sans-serif;
@@ -839,7 +841,7 @@ ul.simplefilter {
 	background: #f26522;
 }
 .team-caption {
-    background: #FF9800;
+    background: #3A8CE39C;
     padding: 1em;
     position: absolute;
     left: 0;
@@ -863,7 +865,7 @@ ul.simplefilter {
 	background: #ececec;
 } 
 .blog-left h4{
-    color: #FF9800;
+    color: #3A8CE39C;
     margin: 0 0 1em 0;
     font-size: 2.5em;
     font-weight: 800;
@@ -879,7 +881,7 @@ ul.simplefilter {
     margin: .5em 0;
 }
 .blog-left ul li a{
-    color: #FF9800;
+    color: #3A8CE39C;
     text-decoration: none;
     -o-transition: all 0.5s;
     -moz-transition: all 0.5s;
@@ -909,7 +911,7 @@ ul.simplefilter {
     transition: all 0.5s;
 }
 .blog-right a:hover{
-	color: #FF9800;
+	color: #3A8CE39C;
 }
 .blog-right p {
     color: #999999;
@@ -944,8 +946,8 @@ ul.simplefilter {
     font-size: 1em;
     border: none;
     text-transform: uppercase;
-    background: #FF9800;
-	border: 2px solid #FF9800;
+    background: #3A8CE39C;
+	border: 2px solid #3A8CE39C;
     font-weight: 600;
 	-o-transition: all 0.5s;
     -moz-transition: all 0.5s;
@@ -1141,8 +1143,8 @@ ul.simplefilter {
     transition: .5s all;
 }
 .address-row:hover span.glyphicon {
-    border-color: #FF9800;
-    color: #FF9800;
+    border-color: #3A8CE39C;
+    color: #3A8CE39C;
     -webkit-transform: rotatey(360deg);
     -moz-transform: rotatey(360deg);
     transform: rotatey(360deg);
@@ -1162,7 +1164,7 @@ ul.simplefilter {
 	line-height:1.8em;
 }
 .address-right p a {
-    color: #FF9800;
+    color: #3A8CE39C;
 	text-decoration:none;
 }
 .address-right p a:hover{
@@ -1195,7 +1197,7 @@ ul.simplefilter {
     line-height: 1.8em;
 } 
 .amet-medium p a{
-    color: #FF9800;
+    color: #3A8CE39C;
     text-decoration: none;
  }
 .amet-medium p a:hover{
@@ -1217,9 +1219,9 @@ ul.simplefilter {
     background: #fff;
 }
 .support input[type="submit"]{
-	background: #FF9800;
+	background: #3A8CE39C;
     cursor: pointer;
-    border: 2px solid #FF9800;
+    border: 2px solid #3A8CE39C;
     color: #fff;
     font-weight: 400;
     font-size: 1em;
@@ -1296,7 +1298,7 @@ ul.simplefilter {
 	margin:0;
 }
 .copyright p a{
-	color:#ff9800;
+	color:#3A8CE39C;
 }
 .copyright p a:hover{
 	color:#FFFFFF;
@@ -1448,7 +1450,7 @@ ul.simplefilter {
 		background-color: #fff;
 	}
 	.navbar-default .navbar-toggle:hover, .navbar-default .navbar-toggle:focus {
-		background: #FF9800;
+		background: #3A8CE39C;
 	}
 	.input {
 		max-width: 28%;
