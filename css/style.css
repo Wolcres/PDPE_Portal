@@ -16,8 +16,12 @@ html, body{
 body{
 	background:#FFFFFF;
 }
-.banner{
+.banner-index{
 	background: url(../images/1.jpg) no-repeat 0px 0px;
+    background-size: cover;
+}
+.banner-sony{
+	background: url(../images/4.jpg) no-repeat 0px 0px;
     background-size: cover;
 }
 .agileinfo-dot{
@@ -668,6 +672,7 @@ ul.simplefilter {
 /*-- model --*/
 .agileits-w3layouts-info img{
 	width:100%;
+
 }
 .modal-header h4 {
     margin: 0;
