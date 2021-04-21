@@ -32,6 +32,18 @@ body{
 	background: url(../images/him.jpeg) no-repeat 0px 0px;
     background-size: cover;
 }
+.banner-login{
+	background: url(../images/lgn.jpg) no-repeat 0px 0px;
+    background-size: cover;
+}
+.banner-register{
+	background: url(../images/rgst.jpg) no-repeat 0px 0px;
+    background-size: cover;
+}
+.banner-contact{
+	background: url(../images/contact.jpeg) no-repeat 0px 0px;
+    background-size: cover;
+}
 .agileinfo-dot{
     background: url(../images/dott.png)repeat 0px 0px;
     background-size: 2px;
@@ -320,6 +332,7 @@ body{
 /*-- w3layouts-banner-info --*/
 .w3layouts-banner-info {
     padding: 26em 0;
+	
 }
 .banner_text {
     text-align: center;

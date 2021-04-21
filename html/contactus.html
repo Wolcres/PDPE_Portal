@@ -45,7 +45,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 </head>
 <body>
 	<!-- banner -->
-	<div class="banner">
+	<div class="banner-contact">
 		<div class="agileinfo-dot">
 			
 			<div class="nv-main">
@@ -71,8 +71,8 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 								<div class="collapse navbar-collapse nav-wil" id="bs-example-navbar-collapse-1" style ="padding-top: -5px;border-top-witdh: 0px; border-top-style:solid; margin-top:-50px;padding-bottom:10px;">
 									<nav>
 										<ul class="nav navbar-nav">
-											<li class="active"><a href="../index.html">Home</a></li>
-											<li class = "dropdown"><a href="products.html" class="dropdown-toggle" data-toggle="dropdown">Products</a>
+											<li><a href="../index.html">Home</a></li>
+											<li class = "dropdown"><a href="products.html" class="dropdown-toggle" data-toggle="dropdown">Productos</a>
 												<ul style="text-align:center; font-family:Arial;" class="dropdown-menu">
 												<li><a href="sony.html">Sony</a></li>
 												<li class="divider"></li>
@@ -81,10 +81,8 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 												<li><a href="pc.html">PC</a></li>
 												</ul>
 											</li>
-											<li><a href="news.html">News</a></li>
-											<li><a href="about.html">About Us</a></li>
-											<li><a href="contactus.html">Mail Us</a></li>
-											<li><a href="register.html">Register</a></li>
+											<li class = "active"><a href="contactus.html">Contacto</a></li>
+											<li><a href="register.html">Registro</a></li>
 											<li><a href="login.html">Login</a></li>
 										</ul>
 									</nav>
@@ -104,38 +102,12 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 									<ul class="rslides callbacks callbacks1" id="slider4">
 										<li>
 											<div class="banner_text">
-												<h3>Welcome</h3>
-												<p>The home for gamers</p>
-												<div class="w3-button">
-													<a href="#" data-toggle="modal" data-target="#myModal">Read More</a>
+												<h3>Contáctanos</h3>
 												</div>
 											</div>
 										</li>
 									</ul>
 								</div>
-								<div class="clearfix"> </div>
-								<script src="js/responsiveslides.min.js"></script>
-								<script>
-									// You can also use "$(window).load(function() {"
-									$(function () {
-									  // Slideshow 4
-									  $("#slider4").responsiveSlides({
-										auto: true,
-										pager:true,
-										nav:true,
-										speed: 500,
-										namespace: "callbacks",
-										before: function () {
-										  $('.events').append("<li>before event fired.</li>");
-										},
-										after: function () {
-										  $('.events').append("<li>after event fired.</li>");
-										}
-									  });
-								
-									});
-								 </script>
-								<!--banner Slider starts Here-->
 							</div>
 						</div>
 					</div>
@@ -144,39 +116,40 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 		</div>
 	</div>
 	<!-- //banner -->
+
     <!-- mail -->
 	<div class="mail" id="mail">
 		<div class="container">
 			<div class="agileits-title">
-				<h3>Mail Us</h3>
+				<h3>Rellena el formulario</h3>
 			</div> 
 			<div class="w3_mail_grids">
 				<form action="https://sendmail.w3layouts.com/submitForm" method="post">
 					<span class="input input--jiro">
 						<input class="input__field input__field--jiro" type="text" id="input-10" name="w3lName" placeholder="Your Name" required=""/>
 						<label class="input__label input__label--jiro" for="input-10">
-							<span class="input__label-content input__label-content--jiro">Your Name</span>
+							<span class="input__label-content input__label-content--jiro">Tu Nombre</span>
 						</label>
 					</span>
 					<span class="input input--jiro">
 						<input class="input__field input__field--jiro" type="email" id="input-11" name="w3lSender" placeholder="Your Email Address" required=""/>
 						<label class="input__label input__label--jiro" for="input-11">
-							<span class="input__label-content input__label-content--jiro">Your Email</span>
+							<span class="input__label-content input__label-content--jiro">Tu Email</span>
 						</label>
 					</span>
 					<span class="input input--jiro">
 						<input class="input__field input__field--jiro" type="text" id="input-12" name="w3lSubject" placeholder="Subject" required=""/>
 						<label class="input__label input__label--jiro" for="input-12">
-							<span class="input__label-content input__label-content--jiro">Subject</span>
+							<span class="input__label-content input__label-content--jiro">Mensaje</span>
 						</label>
 					</span>
-					<textarea name="w3lMessage" placeholder="Message..." required=""></textarea>
-					<input type="submit" value="Submit">
+					<textarea name="w3lMessage" placeholder="Mensaje" required=""></textarea>
+					<input type="submit" value="Enviar">
 				</form>
 			</div>
 		</div>
 	</div>
-	<script src="js/classie.js"></script>
+	<script src="../js/classie.js"></script>
 	<script>
 			(function() {
 				// trim polyfill : https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/Trim
@@ -213,116 +186,100 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 			})();
 		</script>
 	<!-- //mail -->
-	<!-- modal -->
-	<div class="modal about-modal fade" id="myModal" tabindex="-1" role="dialog">
-		<div class="modal-dialog" role="document">
-			<div class="modal-content">
-				<div class="modal-header"> 
-					<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>						
-					<h4 class="modal-title">GAME <span>Solutions</span></h4>
+  <!-- footer -->
+  <div class="footer">
+	<div class="container">
+		<div class="footer-top">
+			<div class="col-md-4 amet-sed"> 
+				<div class="footer-title">
+					<h3>Sobre Nosotros</h3>
 				</div> 
-				<div class="modal-body">
-					<div class="agileits-w3layouts-info">
-						<img src="images/3.jpg" alt="" />
-						<p>If you're looking for the best PS5 and X Series games around, then you've come to the right place. We're here to help you fill your gaming library with the best games available right now for Sony and Microsoft newest console, and we'll continue to add to this list as more unmissable games release in the near future. </p>
-					</div>
+				<p>Somos un grupo de gamers que conocemos el mercado en su totalidad, el cual ayudamos a nuestros clientes a conseguir cualquier pieza de hardware o videoconsola de manera rápida y eficiente sin tener que visitar páginas sospechosas o engañosas, Game Solutions está hecha por gamers para gamers. </p>
+			</div>
+			<div class="col-md-4 amet-sed amet-medium">
+				<div class="footer-title">
+					<h3>Créditos</h3>
+				</div> 
+				<p><a href="mailto:juan.ochoad@upb.edu.co">juan.ochoad@upb.edu.co</a></p>
+				<p><a href="mailto:daniel.arboleda@upb.edu.co">daniel.arboleda@upb.edu.co</a> </p>
+			</div>
+			<div class="col-md-4 amet-sed ">
+				<div class="footer-title">
+					<h3>Síguenos</h3>
+				</div> 
+				<div class="agileinfo-social-grids">
+					<ul>
+						<li><a href="facebook.com/juan8ad"><i class="fa fa-facebook"></i></a></li>
+						<li><a href="twitter.com"><i class="fa fa-twitter"></i></a></li>
+					</ul>
+				</div>
+				<div class="support">
+					<form action="#" method="post">
+						<input type="email" placeholder="Enter email...." required=""> 
+						<input type="submit" value="Subscribe" class="botton">
+					</form> 
 				</div>
 			</div>
+			<div class="clearfix"> </div>
 		</div>
 	</div>
-	<!-- //modal -->
-	<div class="footer">
-		<div class="container">
-			<div class="footer-top">
-				<div class="col-md-4 amet-sed"> 
-					<div class="footer-title">
-						<h3>About Us</h3>
-					</div> 
-					<p>We are a group of gamers who know the market in its entirety, which we help our clients to get any piece of hardware or video console quickly and efficiently without having to visit suspicious or misleading pages, made by gamers for gamers. </p>
-				</div>
-				<div class="col-md-4 amet-sed amet-medium">
-					<div class="footer-title">
-						<h3>Twitter Feed</h3>
-					</div> 
-					<p><a href="#">http://twitter.com</a> Visit our latest tweets to known the status of some products! </p>
-					<p><a href="#">support@gamesolutions.com</a> ¿Doubts? you can mail us and we will answer you as fast as possible. </p>
-				</div>
-				<div class="col-md-4 amet-sed ">
-					<div class="footer-title">
-						<h3>Follow Us</h3>
-					</div> 
-					<div class="agileinfo-social-grids">
-						<ul>
-							<li><a href="facebook.com/juan8ad"><i class="fa fa-facebook"></i></a></li>
-							<li><a href="twitter.com"><i class="fa fa-twitter"></i></a></li>
-						</ul>
-					</div>
-					<div class="support">
-						<form action="#" method="post">
-							<input type="email" placeholder="Enter email...." required=""> 
-							<input type="submit" value="Subscribe" class="botton">
-						</form> 
-					</div>
-				</div>
-				<div class="clearfix"> </div>
-			</div>
-		</div>
+</div>
+<!-- //footer --> 
+<!-- copyright -->
+<div class="copyright">
+	<div class="container">
+		<p class="footer-class">© 2020 GAME SOLUTIONS . All Rights Reserved | Design by  <a href="http://w3layouts.com/" target="_blank">W3layouts</a> </p>
 	</div>
-	<!-- //footer --> 
-	<!-- copyright -->
-	<div class="copyright">
-		<div class="container">
-			<p class="footer-class">© 2020 GAME SOLUTIONS . All Rights Reserved | Design by  <a href="http://w3layouts.com/" target="_blank">W3layouts</a> </p>
-		</div>
-	</div>
-	<!-- //copyright -->
-	<script src="../js/jarallax.js"></script>
-	<!-- <script src="js/SmoothScroll.min.js"></script> -->
+</div>
+<!-- //copyright -->
+<script src="../js/jarallax.js"></script>
+<!-- <script src="js/SmoothScroll.min.js"></script> -->
+<script type="text/javascript">
+	/* init Jarallax */
+	$('.jarallax').jarallax({
+		speed: 0.5,
+		imgWidth: 1366,
+		imgHeight: 768
+	})
+</script>
+<script src="../js/responsiveslides.min.js"></script>
+<script type="text/javascript" src="../js/move-top.js"></script>
+<script type="text/javascript" src="../js/easing.js"></script>
+<!-- here stars scrolling icon -->
+<script type="text/javascript">
+	$(document).ready(function() {
+		/*
+			var defaults = {
+			containerID: 'toTop', // fading element id
+			containerHoverID: 'toTopHover', // fading element hover id
+			scrollSpeed: 1200,
+			easingType: 'linear' 
+			};
+		*/
+							
+		$().UItoTop({ easingType: 'easeOutQuart' });
+							
+		});
+</script>
+<!-- //here ends scrolling icon -->
+<!-- Tabs-JavaScript -->
+<script src="../js/jquery.filterizr.js"></script>
+	<script src="../js/controls.js"></script>
 	<script type="text/javascript">
-		/* init Jarallax */
-		$('.jarallax').jarallax({
-			speed: 0.5,
-			imgWidth: 1366,
-			imgHeight: 768
-		})
+		$(function() {
+			$('.filtr-container').filterizr();
+		});
 	</script>
-	<script src="../js/responsiveslides.min.js"></script>
-	<script type="text/javascript" src="../js/move-top.js"></script>
-	<script type="text/javascript" src="../js/easing.js"></script>
-	<!-- here stars scrolling icon -->
+<!-- //Tabs-JavaScript -->
+<!-- PopUp-Box-JavaScript -->
+	<script src="../js/jquery.chocolat.js"></script>
 	<script type="text/javascript">
-		$(document).ready(function() {
-			/*
-				var defaults = {
-				containerID: 'toTop', // fading element id
-				containerHoverID: 'toTopHover', // fading element hover id
-				scrollSpeed: 1200,
-				easingType: 'linear' 
-				};
-			*/
-								
-			$().UItoTop({ easingType: 'easeOutQuart' });
-								
-			});
+		$(function() {
+			$('.filtr-item a').Chocolat();
+		});
 	</script>
-	<!-- //here ends scrolling icon -->
-	<!-- Tabs-JavaScript -->
-	<script src="../js/jquery.filterizr.js"></script>
-		<script src="../js/controls.js"></script>
-		<script type="text/javascript">
-			$(function() {
-				$('.filtr-container').filterizr();
-			});
-		</script>
-	<!-- //Tabs-JavaScript -->
-	<!-- PopUp-Box-JavaScript -->
-		<script src="../js/jquery.chocolat.js"></script>
-		<script type="text/javascript">
-			$(function() {
-				$('.filtr-item a').Chocolat();
-			});
-		</script>
-	<!-- //PopUp-Box-JavaScript -->
-	</body>
-	<div id="boton_flotante"><img src="https://icons.iconarchive.com/icons/dtafalonso/android-l/48/WhatsApp-icon.png"></div>
-	</html>
+<!-- //PopUp-Box-JavaScript -->
+</body>
+<div id="boton_flotante"><img src="https://icons.iconarchive.com/icons/dtafalonso/android-l/48/WhatsApp-icon.png"></div>
+
+</html>
