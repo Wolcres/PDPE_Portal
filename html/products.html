@@ -134,94 +134,145 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 		</div>
 	</div>
 	<!-- //banner -->
-    <!-- mail -->
-	<div class="mail" id="mail">
-		<div class="container">
-			<div class="agileits-title">
-				<h3>Mail Us</h3>
-			</div> 
-			<div class="w3_mail_grids">
-				<form action="https://sendmail.w3layouts.com/submitForm" method="post">
-					<span class="input input--jiro">
-						<input class="input__field input__field--jiro" type="text" id="input-10" name="w3lName" placeholder="Your Name" required=""/>
-						<label class="input__label input__label--jiro" for="input-10">
-							<span class="input__label-content input__label-content--jiro">Your Name</span>
-						</label>
-					</span>
-					<span class="input input--jiro">
-						<input class="input__field input__field--jiro" type="email" id="input-11" name="w3lSender" placeholder="Your Email Address" required=""/>
-						<label class="input__label input__label--jiro" for="input-11">
-							<span class="input__label-content input__label-content--jiro">Your Email</span>
-						</label>
-					</span>
-					<span class="input input--jiro">
-						<input class="input__field input__field--jiro" type="text" id="input-12" name="w3lSubject" placeholder="Subject" required=""/>
-						<label class="input__label input__label--jiro" for="input-12">
-							<span class="input__label-content input__label-content--jiro">Subject</span>
-						</label>
-					</span>
-					<textarea name="w3lMessage" placeholder="Message..." required=""></textarea>
-					<input type="submit" value="Submit">
-				</form>
-			</div>
-		</div>
-	</div>
-	<script src="js/classie.js"></script>
-	<script>
-			(function() {
-				// trim polyfill : https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/Trim
-				if (!String.prototype.trim) {
-					(function() {
-						// Make sure we trim BOM and NBSP
-						var rtrim = /^[\s\uFEFF\xA0]+|[\s\uFEFF\xA0]+$/g;
-						String.prototype.trim = function() {
-							return this.replace(rtrim, '');
-						};
-					})();
-				}
+<!-- portfolio -->
+<div class="portfolio" id="gallery">
+    <div class="container">
+        <div class="agileits-title"> 
+            <h3>Our Games</h3> 
+        </div>
+        <ul class="simplefilter w3layouts agileits">
+            <li class="active w3layouts agileits" data-filter="all">All</li>
+            <li class="w3layouts agileits" data-filter="1">Category1</li>
+            <li class="w3layouts agileits" data-filter="2">Category2</li>
+            <li class="w3layouts agileits" data-filter="3">Category3</li>
+            <li class="w3layouts agileits" data-filter="4">Category4</li>
+            <li class="w3layouts agileits" data-filter="5">Category5</li>
+        </ul>
 
-				[].slice.call( document.querySelectorAll( 'input.input__field' ) ).forEach( function( inputEl ) {
-					// in case the input is already filled..
-					if( inputEl.value.trim() !== '' ) {
-						classie.add( inputEl.parentNode, 'input--filled' );
-					}
+        <div class="filtr-container w3layouts agileits">
 
-					// events:
-					inputEl.addEventListener( 'focus', onInputFocus );
-					inputEl.addEventListener( 'blur', onInputBlur );
-				} );
+            <div class="filtr-item w3layouts agileits portfolio-t" data-category="1, 5" data-sort="Busy streets">
+                <a href="../images/p1.jpg" class="b-link-stripe w3layouts agileits b-animate-go thickbox">
+                    <figure>
+                        <img src="../images/p1.jpg" class="img-responsive w3layouts agileits" alt="W3layouts Agileits">
+                        <figcaption>
+                            <h3>Gaming <span>Store</span></h3>
+                        </figcaption>
+                    </figure>
+                </a>
+            </div>
 
-				function onInputFocus( ev ) {
-					classie.add( ev.target.parentNode, 'input--filled' );
-				}
+            <div class="filtr-item w3layouts agileits" data-category="2, 5" data-sort="Luminous night">
+                <a href="../images/p2.jpg" class="b-link-stripe w3layouts agileits b-animate-go thickbox">
+                    <figure>
+                        <img src="../images/p2.jpg" class="img-responsive w3layouts agileits" alt="W3layouts Agileits">
+                        <figcaption>
+                            <h3>Gaming <span>Store</span></h3>
+                        </figcaption>
+                    </figure>
+                </a>
+            </div>
 
-				function onInputBlur( ev ) {
-					if( ev.target.value.trim() === '' ) {
-						classie.remove( ev.target.parentNode, 'input--filled' );
-					}
-				}
-			})();
-		</script>
-	<!-- //mail -->
-	<!-- modal -->
-	<div class="modal about-modal fade" id="myModal" tabindex="-1" role="dialog">
-		<div class="modal-dialog" role="document">
-			<div class="modal-content">
-				<div class="modal-header"> 
-					<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>						
-					<h4 class="modal-title">GAME <span>Solutions</span></h4>
-				</div> 
-				<div class="modal-body">
-					<div class="agileits-w3layouts-info">
-						<img src="images/3.jpg" alt="" />
-						<p>If you're looking for the best PS5 and X Series games around, then you've come to the right place. We're here to help you fill your gaming library with the best games available right now for Sony and Microsoft newest console, and we'll continue to add to this list as more unmissable games release in the near future. </p>
-					</div>
-				</div>
-			</div>
-		</div>
-	</div>
-	<!-- //modal -->
-    <!-- footer -->
+            <div class="filtr-item w3layouts agileits" data-category="1, 4" data-sort="City wonders">
+                <a href="../images/p3.jpg" class="b-link-stripe w3layouts agileits b-animate-go thickbox">
+                    <figure>
+                        <img src="../images/p3.jpg" class="img-responsive w3layouts agileits" alt="W3layouts Agileits">
+                        <figcaption>
+                            <h3>Gaming <span>Store</span></h3>
+                        </figcaption>
+                    </figure>
+                </a>
+            </div>
+
+            <div class="filtr-item w3layouts agileits" data-category="3" data-sort="In production">
+                <a href="../images/p4.jpg" class="b-link-stripe w3layouts agileits b-animate-go thickbox">
+                    <figure>
+                        <img src="../images/p4.jpg" class="img-responsive w3layouts agileits" alt="W3layouts Agileits">
+                        <figcaption>
+                            <h3>Gaming <span>Store</span></h3>
+                        </figcaption>
+                    </figure>
+                </a>
+            </div>
+
+            <div class="filtr-item w3layouts agileits" data-category="3, 4" data-sort="Industrial site">
+                <a href="../images/p5.jpg" class="b-link-stripe w3layouts agileits b-animate-go thickbox">
+                    <figure>
+                        <img src="../images/p5.jpg" class="img-responsive w3layouts agileits" alt="W3layouts Agileits">
+                        <figcaption>
+                            <h3>Gaming <span>Store</span></h3>
+                        </figcaption>
+                    </figure>
+                </a>
+            </div>
+
+            <div class="filtr-item w3layouts agileits" data-category="2, 4" data-sort="Peaceful lake">
+                <a href="../images/p6.jpg" class="b-link-stripe w3layouts agileits b-animate-go thickbox">
+                    <figure>
+                        <img src="../images/p6.jpg" class="img-responsive w3layouts agileits" alt="W3layouts Agileits">
+                        <figcaption>
+                            <h3>Gaming <span>Store</span></h3>
+                        </figcaption>
+                    </figure>
+                </a>
+            </div>
+
+            <div class="filtr-item w3layouts agileits" data-category="1, 5" data-sort="City lights">
+                <a href="../images/p7.jpg" class="b-link-stripe w3layouts agileits b-animate-go thickbox">
+                    <figure>
+                        <img src="../images/p7.jpg" class="img-responsive w3layouts agileits" alt="W3layouts Agileits">
+                        <figcaption>
+                            <h3>Gaming <span>Store</span></h3>
+                        </figcaption>
+                    </figure>
+                </a>
+            </div>
+
+            <div class="filtr-item w3layouts agileits" data-category="2, 4" data-sort="Dreamhouse">
+                <a href="../images/p8.jpg" class="b-link-stripe w3layouts agileits b-animate-go thickbox">
+                    <figure>
+                        <img src="../images/p8.jpg" class="img-responsive w3layouts agileits" alt="W3layouts Agileits">
+                        <figcaption>
+                            <h3>Gaming <span>Store</span></h3>
+                        </figcaption>
+                    </figure>
+                </a>
+            </div>
+
+            <div class="filtr-item w3layouts agileits" data-category="2, 4" data-sort="Dreamhouse">
+                <a href="../images/p1.jpg" class="b-link-stripe w3layouts agileits b-animate-go thickbox">
+                    <figure>
+                        <img src="../images/p1.jpg" class="img-responsive w3layouts agileits" alt="W3layouts Agileits">
+                        <figcaption>
+                            <h3>Gaming <span>Store</span></h3>
+                        </figcaption>
+                    </figure>
+                </a>
+            </div>
+            <div class="clearfix"></div>
+        </div>
+    </div>
+</div>
+<!-- //portfolio -->
+<!-- modal -->
+<div class="modal about-modal fade" id="myModal" tabindex="-1" role="dialog">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header"> 
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>						
+                <h4 class="modal-title">GAME <span>Solutions</span></h4>
+            </div> 
+            <div class="modal-body">
+                <div class="agileits-w3layouts-info">
+                    <img src="../images/3.jpg" alt="" />
+                    <p>If you're looking for the best PS5 and X Series games around, then you've come to the right place. We're here to help you fill your gaming library with the best games available right now for Sony and Microsoft newest console, and we'll continue to add to this list as more unmissable games release in the near future. </p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- //modal -->
+	<!-- footer -->
 	<div class="footer">
 		<div class="container">
 			<div class="footer-top">
@@ -269,7 +320,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 		</div>
 	</div>
 	<!-- //copyright -->
-	<script src="../js/jarallax.js"></script>
+	<script src="js/jarallax.js"></script>
 	<!-- <script src="js/SmoothScroll.min.js"></script> -->
 	<script type="text/javascript">
 		/* init Jarallax */
@@ -279,9 +330,9 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 			imgHeight: 768
 		})
 	</script>
-	<script src="../js/responsiveslides.min.js"></script>
-	<script type="text/javascript" src="../js/move-top.js"></script>
-	<script type="text/javascript" src="../js/easing.js"></script>
+	<script src="js/responsiveslides.min.js"></script>
+	<script type="text/javascript" src="js/move-top.js"></script>
+	<script type="text/javascript" src="js/easing.js"></script>
 	<!-- here stars scrolling icon -->
 	<script type="text/javascript">
 		$(document).ready(function() {
@@ -300,8 +351,8 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 	</script>
 	<!-- //here ends scrolling icon -->
 	<!-- Tabs-JavaScript -->
-	<script src="../js/jquery.filterizr.js"></script>
-		<script src="../js/controls.js"></script>
+	<script src="js/jquery.filterizr.js"></script>
+		<script src="js/controls.js"></script>
 		<script type="text/javascript">
 			$(function() {
 				$('.filtr-container').filterizr();
@@ -309,7 +360,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 		</script>
 	<!-- //Tabs-JavaScript -->
 	<!-- PopUp-Box-JavaScript -->
-		<script src="../js/jquery.chocolat.js"></script>
+		<script src="js/jquery.chocolat.js"></script>
 		<script type="text/javascript">
 			$(function() {
 				$('.filtr-item a').Chocolat();

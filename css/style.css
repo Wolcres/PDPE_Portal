@@ -346,6 +346,9 @@ body{
     background:none;
     border: solid 2px #FFFFFF;
 }
+.one{
+	list-style:circle;
+}
 /*-- //w3layouts-banner-info --*/
 /*-- about--*/
 .about,.markets,.portfolio,.testimonial-dot,.team,.blog,.mail{
@@ -1723,3 +1726,12 @@ ul.simplefilter {
 	}
 }
 /*-- //responsive --*/
+
+#boton_flotante{
+	position:fixed;
+	bottom:10px;
+	left:10px;
+	cursor:pointer;
+}
+
+
