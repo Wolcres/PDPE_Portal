@@ -20,8 +20,16 @@ body{
 	background: url(../images/1.jpg) no-repeat 0px 0px;
     background-size: cover;
 }
+.banner-pc{
+	background: url(../images/3090.jpg) no-repeat 0px 0px;
+    background-size: cover;
+}
 .banner-sony{
 	background: url(../images/4.jpg) no-repeat 0px 0px;
+    background-size: cover;
+}
+.banner-mic{
+	background: url(../images/him.jpeg) no-repeat 0px 0px;
     background-size: cover;
 }
 .agileinfo-dot{
