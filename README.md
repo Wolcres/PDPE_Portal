@@ -6,7 +6,6 @@ _eCommerce Web sobre videojuegos._
 * [Laragon](https://laragon.org) - Con este programa se maneja la administración de la página.
 * [Visual Studio Code](https://code.visualstudio.com) - Editor de texto
 * [Bootstrap 4](https://getbootstrap.com) - Hojas de estilo
-* [Vanilla JavaScript](https://pristine.js.org/demo.html) - JavaScript
 * [W3Layouts](https://w3layouts.com) - Plantilla
 
 
