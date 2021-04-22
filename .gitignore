@@ -2,6 +2,6 @@ On branch master
 Ignored files:
  (use "git add -f <file>..." to include in what will be committed)
 
-        node_modules
+        node_modules/
 
 nothing to commit, working directory clean
