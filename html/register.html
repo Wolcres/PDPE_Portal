@@ -14,8 +14,13 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 <!-- bootstrap-css -->
 <link href="../css/bootstrap.css" rel="stylesheet" type="text/css" media="all" />
 <!--// bootstrap-css -->
+<!-- MODAL -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+<script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
 <!-- css -->
 <link rel="stylesheet" href="../css/style.css" type="text/css" media="all" />
+<link rel="stylesheet" href="../css/signup.css" type="text/css" media="all" />
 <!--// css -->
 <!-- font-awesome icons -->
 <link href="../css/font-awesome.css" rel="stylesheet"> 
@@ -104,9 +109,16 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 											<div class="banner_text">
 												<h3>Bienvenido</h3>
 												<p>Regístrate para iniciar tu experiencia.</p>
+												<!--  REGISTRO -->
 												<div class="w3-button">
-													<a href="#" data-toggle="modal" data-target="#myModal">Read More</a>
+													
+													<button type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#miModal">
+														Regístrate
 												</div>
+
+												
+												</button>
+												<!--  REGISTRO -->
 											</div>
 										</li>
 									</ul>
@@ -256,6 +268,29 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 		</script>
 	<!-- //PopUp-Box-JavaScript -->
 </body>
+<div class="modal fade" id="miModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+	<div class="modal-dialog" role="document">
+		<div class="modal-content">
+			<div class="modal-header">
+				<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+					<span aria-hidden="true">&times;</span>
+				</button>
+				<h4 class="modal-title" id="myModalLabel">GAME Solutions</h4>
+			</div>
+			<!-- //Registro -->
+			<section class="form-register">
+				<h4>Formulario Registro</h4>
+				<input class="controls" type="text" name="nombres" id="nombres" placeholder="Ingrese su Nombre">
+				<input class="controls" type="text" name="apellidos" id="apellidos" placeholder="Ingrese su Apellido">
+				<input class="controls" type="email" name="correo" id="correo" placeholder="Ingrese su Correo">
+				<input class="controls" type="password" name="correo" id="correo" placeholder="Ingrese su Contraseña">
+				<p>Estoy de acuerdo con <a href="#">Terminos y Condiciones</a></p>
+				<input class="botons" type="submit" value="Registrar">
+				<p><a href="#">¿Ya tengo Cuenta?</a></p>
+			  </section>
+		</div>
+	</div>
+</div>
 <div id="boton_flotante"><img src="https://icons.iconarchive.com/icons/dtafalonso/android-l/48/WhatsApp-icon.png"></div>
 
 </html>
