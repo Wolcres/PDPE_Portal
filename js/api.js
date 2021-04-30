@@ -1,6 +1,4 @@
 var secciones = [];
-
-
 var resultado;
 
 window.onload = init;
@@ -9,7 +7,7 @@ function init(){
 
     setTimeout(hideURLbar, 0);
     asignarVariables();
-    asignarEventos();
+    /* asignarEventos(); */
 
     if(resultado)
 	{
@@ -17,24 +15,23 @@ function init(){
     
     }
 }
-
 function traerDatos(){
 	fetch('https://rickandmortyapi.com/api/character')
 	.then(response => response.json())
-	.then(data => console.log(data));
+	.then(data => pintardatos(data));
 
 }
-
 function pintardatos(data){
 
-	console.log(data.results[0].name.first);
+	//console.log(data.results[0].name.first);
 
-	var datos;
+	var datos = data.results;
 	var temp;
 	var ans = "";
 	
-		console.log(data.results[0].name.first);
-		datos = data.results;
+		//console.log(data.results[0].name.first);
+		
+
 		for(var i in datos)
 	{
 		temp = datos [i];
@@ -44,7 +41,8 @@ function pintardatos(data){
 		ans+= "</p></div>";
 	
 	}
-	resultado.innerHTML(ans);
+  //  console.log(ans);
+	resultado.innerHTML = ans;
 
 }
 
@@ -59,3 +57,17 @@ function asignarVariables(){
     secciones["seccion_6"]= document.getElementById("seccion_6");
 
 }
+
+/* function asignarEventos(){
+
+    var temp;
+    for(var i in secciones)
+    {
+        if(bajo_logeo[i]==indice)
+        {
+            return true;
+        }
+
+    }
+
+} */
