@@ -10,6 +10,8 @@
   }
   
   .form-register {
+    text-align: center;
+    cursor: pointer;
     width: 400px;
     background: #24303c;
     padding: 30px;
