@@ -1,3 +1,4 @@
+
 window.onload = function(){
 	var boton_flotante = document.getElementById("boton_flotante");
 	boton_flotante.addEventListener("click",function(){
